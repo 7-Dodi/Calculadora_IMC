@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    background-color: rgb(92, 165, 253);
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:3px solid rgb(248, 149, 79);
+    border-radius: 20px;
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    padding: 8px;
+    background-color: #fff;
+}
+h2{
+    margin-top: 10px;
+}
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.div{
+    padding-top: 0px;
+}
+.altura{
+    margin-top: 30px;
+}
+.intro button{
+    margin-top: 10px;
+    border: transparent;
+    background: linear-gradient(45deg, rgb(248, 149, 79), blue);
+    width: 70px;
+    padding: 3px;
+    border-radius: 12px;
+    color: #fff;
+    border: transparent;
+}
+#resp{ 
+    background-color: #ddd;
+    height: 10px;
+    margin-top: 30px;
+    height: 25px;
+    width: 250px;
+}
+input, #resp{
+    padding: 3px;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: #ddd;
+}
